@@ -1,0 +1,6 @@
+RailsBaseURI /
+PassengerAppRoot /home/digitalbrook/railsapp/digitalbrook/current
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.digitalbrook.com
+RewriteRule (.*) http://digitalbrook.com/ [R=301,L]
