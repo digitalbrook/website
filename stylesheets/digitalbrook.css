@@ -1,0 +1,106 @@
+/* Hack to make text size the same on all browsers */
+body {
+	font-size: small;
+}
+* html body {
+	font-size: x-small; /* for IE5/Win */
+	f\ont-size: small;  /* for other IE versions */
+}
+
+body {
+	color: #333;
+  	font-family: verdana, arial, helvetica, sans-serif;
+  	font-size:   13px;
+  	line-height: 18px;
+}
+
+h3 {
+	color: #36f;
+}
+
+#logo {
+	float: left;
+  	margin: 0;
+  	padding: 0;
+}
+
+#slogan {
+	float: right;
+	padding: 20px;
+}
+
+#menu ul {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	list-style: none;
+	background: #ccc;
+	border-bottom: 1px solid #999;
+}
+
+#menu ul ul {
+	display: none;
+}
+
+#menu li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", sans-serif;
+}
+
+#menu a {
+	float: left;
+	display: block;
+	padding: 0px 40px 0px 5px;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	background: #ccc url(images/slant.gif) no-repeat top right;
+}
+
+#menu a:hover {
+	color: #fff;
+}
+
+#content {
+	clear: both;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#footer {
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 75%;
+}
+	
+#management {
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 48%;
+}
+
+#management p {
+	padding-left: 10px;
+}
+
+#technical {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 48%;
+}
+	
+#technical p {
+	padding-left: 10px;
+}
+
+#options {
+	clear: both;
+}
